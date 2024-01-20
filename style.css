@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: lightblue; */
+}
+.card{
+    box-shadow: 10px 5px 5px rgb(215, 202, 202);
+    /* color: rgb(38, 112, 112); */
+    color: white;
+    background-color: rgb(88, 160, 53);
+    opacity:0.7;
+}
+.lcard{
+    /* background-color: lightpink; */
+    
+    /* border-radius: 2em; */
+    padding: 2vh;
+    margin-top: 2vh;
+    box-shadow: 10px 5px 5px rgb(215, 202, 202);
+    /* overflow: auto; */
+    margin-bottom: 2vh;
+}
+.rcard{
+    /* background-color: lightpink; */
+    /* border-radius: 2em; */
+    padding: 2vh;
+    box-shadow: 10px 5px 5px rgb(215, 202, 202);
+    overflow: auto;
+    margin-bottom: 2vh;
+}
+button{
+    box-shadow: 5px 1px 1px rgb(215, 202, 202);
+    /* background-color: rgb(49, 204, 218); */
+    border-color: aliceblue;
+    
+}
+button:hover{
+    background-color: #555555;
+    color: aliceblue;
+}
+.container-fluid{
+    /* width: 100vw; */
+    /* width: 75vw; */
+    /* width: 50vw; */
+    /* width: 25vw; */
+    /* margin: auto; */
+    margin-top: 8vh;
+}
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+.container-fluid {
+    display: flex;
+    gap: 50px;
+}
+
+#table {
+    width: 400px;
+}
+i {
+    cursor: pointer;
+}
+.options {
+    display: flex;
+    gap: 25px;
+}
+input[type=]{
+    background-color: #c70d0d;
+}
+#msg {
+    color: red;
+}
+.rcard{
+    color: white;
+}

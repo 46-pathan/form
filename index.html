@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            />
+
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+        </div>
+        <div class="lcard card">
+            <h3>Form</h3><br>
+            <div class="left">
+                <form action="" id="form">
+                    <form action="" method="">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="fname">First Name:</label>
+                            </div>
+                            <div class="col-md-8 overflow-auto">
+                                <input type="text" id="fname">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="lname">Last Name:</label>
+                            </div>
+                            <div class="col-md-8 overflow-auto">
+                                <input type="text" id="lname">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="gender">Gender: </label>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+
+                                    <div class="row-col-2">
+                                        <div class="col">
+                                            <label for="female"><input
+                                                    type="radio" name="gender"
+                                                    id="female"
+                                                    value="Female">Female</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="male"> <input
+                                                    type="radio" name="gender"
+                                                    id="male"
+                                                    value="Male">Male</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="hobbies" id="hobbies">Hobbies:</label>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+
+                                    <div class="row-col-2">
+
+                                        <div class="col">
+                                            <label for="reading">
+                                                <input type="checkbox"
+                                                    name="hobby1" id="reading"
+                                                    value="Reading">Reading</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="gaming">
+                                                <input type="checkbox"
+                                                    name="hobby2" id="gaming"
+                                                    value="Gaming">Gaming</label>
+                                        </div>
+                                    </div>
+                                    <div class="row-col-2">
+                                        <div class="col">
+                                            <label for="designing"><input
+                                                    type="checkbox"
+                                                    name="hobby3" id="designing"
+                                                    value="Designing">Design</label>
+                                        </div>
+                                        <div class="col">
+                                            <label for="writing"><input
+                                                    type="checkbox"
+                                                    name="hobby4" id="writing"
+                                                    value="Writing">Writing</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="bdate">Birth Date:</label>
+                            </div>
+                            <div class="col-md-8 overflow-auto">
+                                <input type="date" name="bdate" id="bdate">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="add">Address:</label>
+                            </div>
+                            <div class="col-md-8 overflow-auto">
+                                <textarea name="add" id="add" cols="20" rows="5"
+                                    placeholder="Here..."></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div id="msg"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col"><button type="submit"
+                                            id="submit">Submit</button>
+                                    </div><div class="col"><button
+                                            type="reset">Reset</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </form>
+            </div><hr>
+        </div><div class="rcard card">
+
+            <div class="right">
+                <h3>Table</h3>
+                <div>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">FirstName</th>
+                                <th scope="col">LastName</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">Hobbies</th>
+                                <th scope="col">Date of Birth</th>
+                                <th scope="col">Address</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="table">
+                        </tbody>
+                    </table>
+                    <div id="res">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+    <script src="index.js"></script>
+
+</html>
